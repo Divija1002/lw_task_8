@@ -3,7 +3,7 @@
         {
                 var i = document.getElementById("in1").value
 		var xhr=new XMLHttpRequest(); 
-                xhr.open("GET","http://192.168.0.106/cgi-bin/task8.py?x="+i,true)
+                xhr.open("GET","http://192.168.0.106/cgi-bin/out.py?x="+i,true)
                 xhr.send()
                 xhr.onload=function()
                 {
