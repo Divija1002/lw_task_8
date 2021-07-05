@@ -18,10 +18,10 @@ import subprocess as sb
 
 fs = cgi.FieldStorage()
 
-plate_no = fs.getvalue("plate_no")
+plate_no = fs.getvalue("x")
 
 
-if plate_no == "CZ20 FSE":
+if plate_no == "CZ20FSE":
     print("<body style='padding: 40px;'>")
     print('<h1 style="color:#df405a;" >Output</h1>')
     print('''<pre>
